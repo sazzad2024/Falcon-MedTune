@@ -1,0 +1,10 @@
+transformers
+accelerate
+bitsandbytes
+peft
+datasets
+einops
+torch
+sentence_transformers
+pandas
+ipywidgets

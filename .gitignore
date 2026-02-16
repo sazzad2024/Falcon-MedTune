@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+
+# ML Models & Folders
+# We are KEEPING fine_tuned_parameter/
+finetuned_falcon/
+checkpoint-*/
+
+
+# Ignore large binary files elsewhere, but we allowed them in fine_tuned_parameter
+*.bin
+*.pth
+
+# OS
+.DS_Store
